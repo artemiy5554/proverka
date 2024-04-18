@@ -1,0 +1,141 @@
+
+
+.container {
+    position: relative;
+  }
+  
+  .image3 {
+      width: 925px;
+      height: 290px;
+      margin-left: 75px;
+      margin-top: 100px;
+  }
+  
+  .image1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  
+  .image2 {
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  
+  .image4 {
+        width: 550px;
+    height: 450px;
+  margin-top: 180px;
+  margin-left: 40px;
+  }
+  
+  body {
+    background-color: LightGray;
+  }
+  
+  .navbar ul{
+    list-style-type: none;
+    background-color: hsl(0, 0%, 25%);
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+}
+.navbar a{
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+    text-align: center;
+}
+.navbar a:hover{
+    background-color: hsl(0, 0%, 0%);
+}
+.navbar li{
+    float: left;
+}
+
+.brest {
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.colour {
+  text-align: center;
+}
+
+.brest1 {
+  text-decoration:grey underline;
+}
+
+.color {
+  font-family: 'Courier New', Courier, monospace;
+  background-image: url('https://divakeramika.ru/uploads/all/7a/06/bb/7a06bbc9b8b8eac2baaa630bb21d2fb1.jpg');
+  font-size: 20px;
+  color: rgb(204, 203, 203);
+}
+
+.font {
+  width:1000px;
+  height: 500px;
+}
+
+.color1 {
+  width: 350px;
+  height: 200px;
+}
+
+.color2 {
+  width: 300px;
+  height: 150px;
+}
+
+.color3 {
+  width: 200px;
+  height: 250px;
+}
+
+.color4 {
+  width: 250px;
+  height: 200px;
+}
+
+.color5 {
+  height: 250px;
+  width: 150px;
+}
+
+.color6 {
+  width: 100px;
+  height: 150px;
+}
+
+.color7 {
+  width: 300px;
+  height: 200px;
+}
+
+.color8 {
+  width: 250px;
+  height: 150px;
+}
+
+.tour {
+  position: fixed;
+}
+
+
+.container_test{
+  display: grid;
+  align-items: center; 
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 5px;
+ }
+ 
+ img_test {
+   max-width: 50%;
+   max-height:50%;
+ }
+ 
+ .text_test {
+   font-size: 20px;
+ }
